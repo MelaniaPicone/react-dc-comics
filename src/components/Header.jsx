@@ -4,13 +4,13 @@ function Header() {
 <div className="container">
   <div className="row">
 
-    <div className="col-50">
+    <div className="col-25">
       <div id="logo-header">
-        <img src="./assets/img/dc-logo.png" />
+        <img src="src/assets/img/dc-logo.png" />
       </div>
     </div>
 
-    <div className="col-50">
+    <div className="col-75">
       <div id="menu">
         <li><a href="#">Characters</a></li>
         <li><a href="#">Comics</a></li>
