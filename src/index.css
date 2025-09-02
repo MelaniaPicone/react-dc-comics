@@ -45,6 +45,10 @@ a {
   width: 100%;
 }
 
+.col-50 {
+  width: 50%;
+}
+
 /* UTILITY */
 
 .align-items-center {
@@ -98,7 +102,7 @@ justify-content: space-around;
 
 .icons-list img {
   width: 70px;
-  height: 100px;
+  height: 70px;
   vertical-align: middle;
   margin-right: 15px;
   object-fit: contain;
@@ -108,4 +112,14 @@ justify-content: space-around;
 vertical-align: middle;
 color: #fff;
 font-weight: 300;
+}
+
+.middle-footer {
+  height: 400px;
+  background-image: url('src/assets/img/footer-bg.jpg');
+  background-size: 100%;
+}
+
+.bottom-footer {
+  background-color: #000;
 }

@@ -25,9 +25,18 @@ function Footer() {
 
 </div>
 
-<div className="middle-footer"></div>
+<div className="middle-footer">
+  <div className="container">
+<div className="row">
+  <div className="col-50">
 
-<div className="bottom-footer"></div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<div className="bottom-footer">mh</div>
 
    </footer>
   );
