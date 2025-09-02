@@ -1,4 +1,58 @@
 function Header() {
+const menu = [ {
+  id: 1,
+label: "Characters",
+active: false,
+href:"#"},
+
+{ id: 2,
+label: "Comics",
+active: true,
+href:"#"},
+
+{ id: 3,
+label: "Movies",
+active: false,
+href:"#"},
+
+{ id: 4,
+label: "TV",
+active: false,
+href:"#"},
+
+{ id: 5,
+label: "Games",
+active: false,
+href:"#"},
+
+{ id: 6,
+label: "Collectibles",
+active: false,
+href:"#"},
+
+{ id: 7,
+label: "Videos",
+active: false,
+href:"#"},
+
+{ id: 8,
+label: "Fans",
+active: false,
+href:"#"},
+
+{ id: 9,
+label: "News",
+active: false,
+href:"#"},
+
+{ id: 10,
+label: "Shop",
+active: false,
+href:"#"}
+]
+
+
+
   return (
 <header>
 <div className="container">
