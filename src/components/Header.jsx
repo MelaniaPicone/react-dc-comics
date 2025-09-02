@@ -1,8 +1,6 @@
 function Header() {
   return (
-    <header>
-     
-    </header>
+    <h1>Header DC Comics</h1>
   );
 }
 

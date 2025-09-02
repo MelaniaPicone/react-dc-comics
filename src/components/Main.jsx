@@ -1,8 +1,6 @@
 function Main() {
   return (
-    <main>
-     
-    </main>
+    <h2>Main content</h2>
   );
 }
 

@@ -1,8 +1,6 @@
 function Footer() {
   return (
-    <footer>
-      
-    </footer>
+   <div><p>Footer dc comics</p></div>
   );
 }
 
