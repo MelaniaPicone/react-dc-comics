@@ -1,3 +1,7 @@
+import ComicCard from "./ComicCard";
+
+
+
 const ComicsList = () => {
 const comics = [
   {
@@ -154,24 +158,25 @@ const comics = [
   },
 ];
 
+
+const ComicsList = () => {
+const comics = [];
+
   return (
     <div className="container">
 <div className="row">
-{comics.map(comic => {
-  return (
-    <div className="col-16">
-  <div className="comic-card">
-<img src= {comic.thumb} alt={comic.title}></img>
-<h3>{comic.title}</h3>
-  </div>
-</div>
-  )
-})}
+  {comics.map((comic) => {
+const {id, thumb, title} = comic;
+return (<ComicCard thumb={thumb} title={title}/>)
+
+  })}
+
 
 
 </div>
     </div>
   )
+}
 }
 
 export default ComicsList;
