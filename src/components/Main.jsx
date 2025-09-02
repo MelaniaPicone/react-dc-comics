@@ -1,10 +1,12 @@
+import ComicsList from "./ComicsList";
+
 function Main() {
   return (
    <main>
 <div className="container">
 <div className="row">
 <div className="col-100">
-  <h2>Content goes here</h2>
+<ComicsList /> 
 </div>
 
 </div>
