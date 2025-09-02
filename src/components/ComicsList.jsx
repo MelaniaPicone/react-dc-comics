@@ -155,8 +155,21 @@ const comics = [
 ];
 
   return (
-    <div>
-      Lista fumetti
+    <div className="container">
+<div className="row">
+{comics.map(comic => {
+  return (
+    <div className="col-16">
+  <div className="comic-card">
+<img src= {comic.thumb} alt={comic.title}></img>
+<h3>{comic.title}</h3>
+  </div>
+</div>
+  )
+})}
+
+
+</div>
     </div>
   )
 }
