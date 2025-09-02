@@ -1,6 +1,19 @@
 function Main() {
   return (
-    <h2>Main content</h2>
+   <main>
+<div className="container">
+<div className="row">
+<div className="col-100">
+  <h2>Content goes here</h2>
+</div>
+
+</div>
+
+</div>
+
+
+
+   </main>
   );
 }
 

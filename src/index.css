@@ -8,14 +8,13 @@ body {
   font-family: "Open Sans",sans serif;
 }
 
-header {
-  padding: 15px 0px;
+main {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 a {
   text-decoration: none;
@@ -42,6 +41,10 @@ a {
   width: 75%;
 }
 
+.col-100 {
+  width: 100%;
+}
+
 /* UTILITY */
 
 .align-items-center {
@@ -50,6 +53,10 @@ a {
 
 
 /* CUSTOM */
+
+#logo-header {
+  padding: 15px;
+}
 
 #menu {
   display: flex;
@@ -77,4 +84,28 @@ color: #0C7CEC;
   font-weight: 600;
   font-size: 18px;
 
+}
+
+.blue-banner {
+  background-color: #0C7CEC;
+  padding: 30px 0px;
+}
+
+.icons-list {
+display: flex;
+justify-content: space-around;
+}
+
+.icons-list img {
+  width: 70px;
+  height: 100px;
+  vertical-align: middle;
+  margin-right: 15px;
+  object-fit: contain;
+}
+
+.icons-list span {
+vertical-align: middle;
+color: #fff;
+font-weight: 300;
 }
